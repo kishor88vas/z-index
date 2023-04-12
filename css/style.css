@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: Lightblue;
+}
+h2 {
+	text-align: center;
+	color: red;
+}
+.main_container{
+	margin: 0 auto;
+	width: 50%;
+	height: 400px;
+	background-color: white;
+	border: 2px solid black;
+	position: relative;
+}
+
+.red{
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	Position:absolute;
+	margin-top: 50px;
+	margin-left: 50px;
+	Z-index:1;
+}
+
+.green{
+	width: 250px;
+	height: 250px;
+	background-color: green;
+	Position:absolute;
+	margin-top: 75px;
+	margin-left: 75px;
+	Z-index:2;
+}
+
+.blue{
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	Position:absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	Z-index:3;
+}
